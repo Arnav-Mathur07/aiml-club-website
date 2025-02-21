@@ -1,7 +1,12 @@
+import Hero from "@/components/landing/hero";
+
 export default function Page() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <main >
+      <div className='main'>
+        <div className='gradient' />
+      </div>
+      <Hero />
+    </main>
   );
 }

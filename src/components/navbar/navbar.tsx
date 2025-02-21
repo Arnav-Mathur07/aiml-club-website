@@ -10,7 +10,7 @@ const poppins = Poppins({
 
 export default function Navbar() {
     return (
-        <div className="navbar bg-base-100 border-b border-base-200">
+        <div className="navbar bg-base-100 border w-[90%] mx-auto rounded-full px-6 mt-4 fixed left-0 right-0 shadow-md">
             <div className="navbar-start">
                 <div className='flex items-center'>
                     <Image
@@ -34,7 +34,7 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="btn btn-accent rounded-lg">Join Us</button>
+                <button className="btn btn-sm btn-accent rounded-lg">Join Us</button>
             </div>
         </div>
     )
