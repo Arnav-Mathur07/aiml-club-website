@@ -1,16 +1,11 @@
-import { Poppins } from 'next/font/google';
 import Image from 'next/image';
 import logo from "../../assets/logo.png"
 import Link from 'next/link';
-
-const poppins = Poppins({
-    subsets: ['latin'],
-    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-});
+import { poppins, space_grotesk } from '@/app/fonts/fonts';
 
 export default function Navbar() {
     return (
-        <div className="navbar bg-base-100 border w-[90%] mx-auto rounded-full px-6 mt-4 fixed left-0 right-0 shadow-md">
+        <div className="navbar border w-[90%] mx-auto rounded-full px-6 mt-4 fixed left-0 right-0 shadow-md bg-gray-50 z-10">
             <div className="navbar-start">
                 <div className='flex items-center'>
                     <Image
@@ -25,7 +20,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className={`menu menu-horizontal px-1 ${space_grotesk.className}`}>
                     <li><Link href="/about">About</Link></li>
                     <li><Link href="/events">Events</Link></li>
                     <li><Link href="/projects">Projects</Link></li>
@@ -34,7 +29,7 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="btn btn-sm btn-accent rounded-lg">Join Us</button>
+                <button className={`btn btn-sm btn-accent rounded-lg ${space_grotesk.className}`}>Sponsor Us</button>
             </div>
         </div>
     )

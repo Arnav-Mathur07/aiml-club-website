@@ -9,7 +9,8 @@ export default function Code() {
             <pre data-prefix=">" className=""><code> CS major detected. Optimizing expectations...</code></pre>
             <pre data-prefix=">" className="text-error"><code> Warning: Debugging skills required. 🔥</code></pre>
             <pre data-prefix=">" className="text-success"><code> Access granted: Welcome, You! 🚀</code></pre>
-            <pre data-prefix=">" className=""><code> printf("Hello, World!"); // You belong here.</code></pre>
+            <pre data-prefix=">" className=""><code> printf("Hello, World!");&nbsp;
+                <span className="text-gray-400"># You belong here.</span></code></pre>
         </div>
     )
 }

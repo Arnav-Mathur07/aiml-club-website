@@ -6,7 +6,10 @@
 body {
     @apply bg-base-200
 } */
-
+::selection {
+    background: rgba(8, 185, 185, 0.956);
+    color: #fff;
+}
 
 .main {
     width: 100vw;
