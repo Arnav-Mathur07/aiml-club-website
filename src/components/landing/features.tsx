@@ -23,7 +23,7 @@ export default function Features(){
                         icon: "👨‍💻"
                     }
                 ].map((feature, index) => (
-                    <div key={index} className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
+                    <div key={index} className="card bg-base-100 shadow-xl hover:shadow-2xl hover:border-orange-500 border transition-shadow">
                         <div className="card-body text-center">
                             <div className="text-4xl mb-4">{feature.icon}</div>
                             <h3 className={`text-xl font-bold mb-2 ${poppins.className}`}>{feature.title}</h3>
