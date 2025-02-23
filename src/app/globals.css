@@ -65,3 +65,13 @@ body {
     top: 80px;
     opacity: 0.15;
 }
+.abt-h1 {
+    font-size: 45px;
+}
+.abt-h3 {
+    font-size: 32px;
+}
+.abt-p1 {
+    font-size: 18px;
+    text-align:justify;
+}
