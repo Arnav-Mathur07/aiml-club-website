@@ -9,9 +9,9 @@ export default function CTA() {
                     Join our community of passionate developers and start building your future today!
                 </p>
                 <div className="flex flex-wrap gap-4 justify-center">
-                    <button className={`btn bg-white text-cyan-800 hover:bg-gray-100 ${space_grotesk.className} transition-all duration-150 hover:px-7`}>
+                    <a href = "https://forms.gle/GX9iwv9uvSCmgT866" className={`btn bg-white text-cyan-800 hover:bg-gray-100 ${space_grotesk.className} transition-all duration-150 hover:px-7`}>
                         Join Us &rarr;
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

@@ -30,7 +30,8 @@ export default function Hero() {
                         <p className={`py-6 text-lg font-medium ${space_grotesk.className}`}>
                             A collaborative and passionate community for students, by students
                         </p>
-                        <button className={`btn btn-accent hover:px-7 transition-all duration-150 ${space_grotesk.className}`}>Join Us &rarr;</button>
+                        <a href = "https://forms.gle/GX9iwv9uvSCmgT866" className={`btn btn-accent hover:px-7 transition-all duration-150 ${space_grotesk.className}`}>Join Us &rarr;
+                        </a>
                     </div>
                 </div>
                 <Code />
