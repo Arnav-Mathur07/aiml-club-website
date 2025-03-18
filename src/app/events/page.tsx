@@ -30,7 +30,7 @@ export default function Page() {
 
             <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 {events.map((event) => (
-                    <EventCard title={event.title} description={event.description} category={event.category} />
+                    <EventCard key={event.title} title={event.title} description={event.description} category={event.category} />
                 ))}
             </div>
 
